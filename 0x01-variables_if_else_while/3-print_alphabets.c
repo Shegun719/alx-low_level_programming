@@ -19,6 +19,6 @@ putchar(LETTER);
 
 putchar('\n');
 
- return (0);
+return (0);
 
 }
