@@ -12,7 +12,13 @@
 int main(void)
 {
 
-puts("abcdefghijklmnopqrstuvwxyz\n");
+char letter;
+
+for (letter = "a"; leftter <= "z"; letter++)
+putchar(letter);
+
+putchar("\n");
+
 return (0);
 
 }
