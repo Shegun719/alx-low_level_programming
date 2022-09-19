@@ -12,7 +12,7 @@
 int main(void)
 {
 
-puts("abcdefghijklmnoprstuvwxyz\n");
+puts("abcdefghijklmnopqrstuvwxyz\n");
 return (0);
 
 }
