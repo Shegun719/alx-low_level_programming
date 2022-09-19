@@ -19,4 +19,6 @@ putchar(LETTER);
 
 putchar('\n');
 
+ return (0);
+
 }
