@@ -14,7 +14,7 @@ int num;
 for (num = 9; num >= 0; num--)
 putchar(num);
 
-putchar('\n');
+/* putchar('\n'); */
 
 return (0);
 
