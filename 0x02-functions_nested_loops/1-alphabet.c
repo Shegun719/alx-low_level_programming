@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *main - 
+ *print_alphabet - a function that prints the alphabet, in lowercase
  *
  *Return: 0;
  */
@@ -9,7 +9,7 @@
 void print_alphabet(void)
 {
 
-char ch[] = "a";
+char ch;
 for (ch = 'a'; ch <= 'z'; ch++)
 
 _putchar(ch);
