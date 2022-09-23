@@ -10,7 +10,7 @@
 int main(void)
 {
 
-char *ch = "mainx";
+char *ch = "main";
 
 _putchar(*ch);
 
