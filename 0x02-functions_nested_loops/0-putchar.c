@@ -10,10 +10,11 @@
 int main(void)
 {
 
-char *ch = "_putchar";
+char ch[] = "_putchar";
+int i;
 
-while(*ch)
-_putchar(*ch);
+ for (i =  0; i = 9; i++)
+_putchar(ch[i]);
 
 
 
