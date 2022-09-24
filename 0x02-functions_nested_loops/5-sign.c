@@ -20,11 +20,11 @@ if (n > 0)
 _putchar(*ch);
 return (1);
 
-if (n == 0)
+else if (n == 0)
 _putchar(*sh);
 return (0);
 
-if (n < 0)
+else (n < 0)
 _putchar(*xh);
 return (-1);
 
