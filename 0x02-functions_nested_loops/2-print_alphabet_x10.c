@@ -14,13 +14,12 @@ int c, ch;
 
 ch = 0;
 while (ch < 10)
-
+{
 for (c = 'a'; c <= 'z'; c++)
 _putchar(c);
 
 ch++;
-
-
 _putchar('\n');
+}
 
 }
