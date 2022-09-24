@@ -10,12 +10,17 @@
 
 int _abs(int n)
 {
+
 if (n > 0)
+{
 n = n;
 return (n);
+}
 
 else
+{
 n = n * -1;
 return (n);
+}
 
 }
