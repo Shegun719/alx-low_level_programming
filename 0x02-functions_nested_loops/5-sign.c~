@@ -1,0 +1,29 @@
+#include "main.h"
+
+/**
+ *print_sign - the sign of a number.
+ *
+ *Return: 1 if positive, 0 if equal, -1 if negative;
+ *
+ */
+
+int print_sign(int n)
+{
+
+char *ch = "+";
+char *sh = "0";
+char *xh = "-";
+
+if (n > 0)
+_putchar(*ch);
+return (1);
+
+if (n == 0)
+_putchar(*sh);
+return (0);
+
+if (n < 0)
+_putchar(*xh);
+return (-1);
+
+}
