@@ -1,31 +1,16 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main-entry point of function
- *
- *Description: A program will assign
- * a random number to the variable n each time it is executed.
- *Return: 0;
- */
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
 
 int main(void)
 {
-	int n;
+        int i;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
-	printf("%i is positive\n", n);
+        i = 0;
+        positive_or_negative(i);
 
-	else if (n == 0)
-	printf("%i is zero\n", n);
-
-	else
-	  printf("%i is negative\n", n);
-
-	return (0);
-
+        return (0);
 }
